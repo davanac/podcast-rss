@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>davanac</title>
+    <description>Le podcast de veille sur les 5 piliers de la liberté numérique par Damien Van Achter</description>
+    <link>https://davanac-team.ghost.io</link>
+    <language>fr</language>
+    <copyright>© 2025 Damien Van Achter</copyright>
+    <itunes:author>Damien Van Achter</itunes:author>
+    <itunes:summary>Le podcast de veille sur les 5 piliers de la liberté numérique par Damien Van Achter</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Damien Van Achter</itunes:name>
+      <itunes:email>contact@da.van.ac</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://davanac-team.ghost.io/content/images/podcast-cover.jpg"/>
+    <itunes:category text="Technology"/>
+    <item>
+      <title>Une &quot;ferme de téléphones IA&quot; financée par a16z sur TikTok</title>
+      <description>Doublespeed, startup soutenue par Andreessen Horowitz, exploite une ferme de centaines de téléphones pour gérer des comptes TikTok d'influenceurs IA promouvant des produits sans divulgation publicitaire. Un hack révèle l'ampleur du système et ses failles de sécurité.</description>
+      <link>https://da.van.ac/une-ferme-de-telephones-ia-financee-par-a16z-sur-tiktok/</link>
+      <guid>https://da.van.ac/une-ferme-de-telephones-ia-financee-par-a16z-sur-tiktok/</guid>
+      <pubDate>Mon, 22 Dec 2025 12:45:50 +0000</pubDate>
+      <itunes:author>Damien Van Achter</itunes:author>
+      <itunes:summary>Doublespeed, startup soutenue par Andreessen Horowitz, exploite une ferme de centaines de téléphones pour gérer des comptes TikTok d'influenceurs IA promouvant des produits sans divulgation publicitaire. Un hack révèle l'ampleur du système et ses failles de sécurité.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://images.unsplash.com/photo-1660136007317-b0d7dd3cee08?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI1fHx0aWt0b2t8ZW58MHx8fHwxNzY2MTM4MzU2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000"/>
+      <enclosure url="https://da.van.ac/content/files/2025/12/69431232eee1f200017282a9-10.mp3" length="5035052" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>🇦🇺 L'Australie : premiers enseignements de l'interdiction des réseaux sociaux aux ados</title>
+      <description>Une semaine après l'interdiction des réseaux sociaux aux moins de 16 ans, l'Australie découvre l'inventivité des adolescents : VPN, fausses identités, migration vers des plateformes inconnues. Un laboratoire mondial révélateur.</description>
+      <link>https://da.van.ac/laustralie-face-au-contournement-premiers-enseignements-de-linterdiction/</link>
+      <guid>https://da.van.ac/laustralie-face-au-contournement-premiers-enseignements-de-linterdiction/</guid>
+      <pubDate>Mon, 22 Dec 2025 10:00:24 +0000</pubDate>
+      <itunes:author>Damien Van Achter</itunes:author>
+      <itunes:summary>Une semaine après l'interdiction des réseaux sociaux aux moins de 16 ans, l'Australie découvre l'inventivité des adolescents : VPN, fausses identités, migration vers des plateformes inconnues. Un laboratoire mondial révélateur.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://images.unsplash.com/photo-1546268060-2592ff93ee24?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fEF1c3RyYWxpYXxlbnwwfHx8fDE3NjYzNzE0MDl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000"/>
+      <enclosure url="https://da.van.ac/content/files/2025/12/6948adeeff78ff0001239228.mp3" length="5631788" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>ICE sous-traite la traque d'immigrés à des IA « chasseurs de primes »</title>
+      <description>L'agence américaine d'immigration contractualise des « agents IA » pour traquer rapidement les immigrés et cartographier leurs réseaux familiaux. Un cas d'école de surveillance algorithmique au service de politiques répressives.</description>
+      <link>https://da.van.ac/ice-sous-traite-la-traque-dimmigres-a-des-ia-chasseurs-de-primes/</link>
+      <guid>https://da.van.ac/ice-sous-traite-la-traque-dimmigres-a-des-ia-chasseurs-de-primes/</guid>
+      <pubDate>Mon, 22 Dec 2025 07:45:47 +0000</pubDate>
+      <itunes:author>Damien Van Achter</itunes:author>
+      <itunes:summary>L'agence américaine d'immigration contractualise des « agents IA » pour traquer rapidement les immigrés et cartographier leurs réseaux familiaux. Un cas d'école de surveillance algorithmique au service de politiques répressives.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://images.unsplash.com/photo-1602454727524-bda13fbf9530?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fGJvcmRlcnxlbnwwfHx8fDE3NjYzNTk5MDR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000"/>
+      <enclosure url="https://da.van.ac/content/files/2025/12/6948815dff78ff00012391b7.mp3" length="5782316" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
