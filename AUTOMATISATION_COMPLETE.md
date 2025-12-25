@@ -73,14 +73,11 @@ Ajout du player audio dans l'article
 
 ### Flux RSS final
 ```
-https://raw.githubusercontent.com/davanac/podcast-rss/main/podcast_merged.rss
+https://davanac.github.io/podcast-rss/podcast_merged.rss
 ```
 
-**IMPORTANT** : Vous devez configurer cette URL dans Spotify for Creators :
-1. Allez sur https://creators.spotify.com/pod/profile/davanac/
-2. Settings → RSS feed
-3. Entrez l'URL ci-dessus
-4. Sauvegardez
+**IMPORTANT** : Cette URL est déjà configurée dans Spotify for Creators.
+Spotify interroge automatiquement ce flux toutes les 6-24h pour détecter les nouveaux épisodes.
 
 ### Repository GitHub
 ```
@@ -215,9 +212,19 @@ Après 24h :
 ### Spotify ne détecte pas les changements
 
 - Attendez 24-48h (Spotify est lent)
-- Vérifiez que l'URL RSS est bien configurée dans Spotify
+- L'URL RSS configurée dans Spotify : https://davanac.github.io/podcast-rss/podcast_merged.rss
 - Testez l'URL RSS : https://podba.se/validate/
 - Vérifiez les logs Spotify : https://creators.spotify.com/pod/profile/davanac/
+
+### GitHub Pages n'affiche pas tous les épisodes
+
+Si GitHub Pages affiche moins de 259 épisodes :
+- Attendez 5-10 minutes (GitHub Pages doit reconstruire le site)
+- Vérifiez que le fichier sur GitHub contient bien tous les épisodes :
+  ```bash
+  curl -s "https://raw.githubusercontent.com/davanac/podcast-rss/main/podcast_merged.rss" | grep -c "<item>"
+  ```
+- GitHub Pages se met à jour automatiquement après chaque push
 
 ### Erreur lors de la fusion
 
