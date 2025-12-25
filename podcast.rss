@@ -16,6 +16,30 @@
     <itunes:image href="https://davanac-team.ghost.io/content/images/podcast-cover.jpg"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Criminalisation de l'effacement de téléphone : quand se protéger devient illégal</title>
+      <description>Une affaire judiciaire américaine révèle les tensions entre droit à la vie privée et pouvoirs de surveillance. Parallèlement, des cas d'imposition d'IA dans des communautés numériques questionnent l'autonomie des utilisateurs.</description>
+      <link>https://da.van.ac/criminalisation-de-leffacement-de-telephone-quand-se-proteger-devient-illegal/</link>
+      <guid>https://da.van.ac/criminalisation-de-leffacement-de-telephone-quand-se-proteger-devient-illegal/</guid>
+      <pubDate>Tue, 23 Dec 2025 12:45:06 +0000</pubDate>
+      <itunes:author>Damien Van Achter</itunes:author>
+      <itunes:summary>Une affaire judiciaire américaine révèle les tensions entre droit à la vie privée et pouvoirs de surveillance. Parallèlement, des cas d'imposition d'IA dans des communautés numériques questionnent l'autonomie des utilisateurs.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://images.unsplash.com/photo-1585060544812-6b45742d762f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE0fHxwaG9uZXxlbnwwfHx8fDE3NjYyMjM5ODh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000"/>
+      <enclosure url="https://da.van.ac/content/files/2025/12/69431257eee1f200017282af-10.mp3" length="4651820" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>La Silicon Valley capture Westminster : le cas britannique des &quot;portes tournantes&quot;</title>
+      <description>Les géants tech américains recrutent massivement d'anciens politiques britanniques (Osborne, Clegg, Blair) créant une asymétrie de pouvoir préoccupante entre la Silicon Valley et Westminster. Une commission parlementaire surveille désormais ces 'portes tournantes'.</description>
+      <link>https://da.van.ac/la-silicon-valley-capture-westminster-le-cas-britannique-des-portes-tournantes/</link>
+      <guid>https://da.van.ac/la-silicon-valley-capture-westminster-le-cas-britannique-des-portes-tournantes/</guid>
+      <pubDate>Tue, 23 Dec 2025 07:45:09 +0000</pubDate>
+      <itunes:author>Damien Van Achter</itunes:author>
+      <itunes:summary>Les géants tech américains recrutent massivement d'anciens politiques britanniques (Osborne, Clegg, Blair) créant une asymétrie de pouvoir préoccupante entre la Silicon Valley et Westminster. Une commission parlementaire surveille désormais ces 'portes tournantes'.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://images.unsplash.com/photo-1709911782675-4e7f30f483f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDV8fHJldm9sdmluZyUyMGRvb3JzfGVufDB8fHx8MTc2NjIyMzk1NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=2000"/>
+      <enclosure url="https://da.van.ac/content/files/2025/12/69431105eee1f20001728291-11.mp3" length="4503596" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>Une &quot;ferme de téléphones IA&quot; financée par a16z sur TikTok</title>
       <description>Doublespeed, startup soutenue par Andreessen Horowitz, exploite une ferme de centaines de téléphones pour gérer des comptes TikTok d'influenceurs IA promouvant des produits sans divulgation publicitaire. Un hack révèle l'ampleur du système et ses failles de sécurité.</description>
       <link>https://da.van.ac/une-ferme-de-telephones-ia-financee-par-a16z-sur-tiktok/</link>
