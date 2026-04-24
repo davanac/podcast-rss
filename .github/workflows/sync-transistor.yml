@@ -1,0 +1,38 @@
+name: Sync Transistor → GitHub Pages
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-rss
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Transistor feed
+        run: |
+          curl -sSfL "https://feeds.transistor.fm/davanac" -o podcast_merged.rss
+          grep -q "<channel>" podcast_merged.rss || { echo "::error::feed invalide"; exit 1; }
+          items=$(grep -c "<item>" podcast_merged.rss)
+          [ "$items" -ge 200 ] || { echo "::error::only $items items (<200)"; exit 1; }
+          echo "✅ $items épisodes"
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet podcast_merged.rss; then
+            echo "Aucun changement"; exit 0
+          fi
+          git add podcast_merged.rss
+          git commit -m "sync: Transistor RSS → $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
